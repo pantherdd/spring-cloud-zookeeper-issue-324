@@ -11,7 +11,7 @@ spring:
         enabled: true
         service-id: config-server
     zookeeper:
-      connect-string: 'localhost:2181'
+      connect-string: 'local.zookeeper.invalid'
       connection-timeout: 1s
       block-until-connected-wait: 1
       max-retries: 1
